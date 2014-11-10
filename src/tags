@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HIT_TIMES_TO_DOWNLOAD	process_url.c	10;"	d	file:
+IDENTIFIER	communicate.c	23;"	d	file:
+IDENTIFIER	test_communication.c	11;"	d	file:
+MAX_SIZE	test_communication.c	10;"	d	file:
+MSG_BACK_MAX_SIZE	communicate.c	22;"	d	file:
+MSG_MAX_SIZE	communicate.c	21;"	d	file:
+TEST_FILE	communicate.c	18;"	d	file:
+TEST_FILE	test.c	14;"	d	file:
+TEST_RECORD_NUM	communicate.c	19;"	d	file:
+TEST_RECORD_NUM	test.c	15;"	d	file:
+_test_t	test.c	/^typedef struct _test_t$/;"	s	file:
+_testb_t	test.c	/^typedef struct _testb_t$/;"	s	file:
+att_alloc	communicate.c	/^att_thread_t *att_alloc(int msgid, void *space)$/;"	f
+att_alloc	test_communication.c	/^att_thread_t *att_alloc(int msgid, void *space)$/;"	f
+att_thread_t	communicate.c	/^}att_thread_t;$/;"	t	typeref:struct:att_thread_t_	file:
+att_thread_t	test_communication.c	/^}att_thread_t;$/;"	t	typeref:struct:att_thread_t_	file:
+att_thread_t_	communicate.c	/^typedef struct att_thread_t_$/;"	s	file:
+att_thread_t_	test_communication.c	/^typedef struct att_thread_t_$/;"	s	file:
+dest_space	query_space.c	/^int dest_space(void *s)$/;"	f
+empty_records	query_record.c	/^int empty_records(space_t *space)$/;"	f
+find_record_from_hash	query_hashtable.c	/^record_t *find_record_from_hash(unsigned long hash_index, const url_md5 *url, space_t *space)$/;"	f
+flag	test_communication.c	/^	int flag;$/;"	m	struct:msg_web_cache_t_	file:
+free_record	query_record.c	/^int free_record(record_t *record, space_t *space)$/;"	f
+get_file_length	communicate.c	/^unsigned int get_file_length(const char *filename)$/;"	f
+get_file_length	test.c	/^unsigned int get_file_length(const char *filename)$/;"	f
+get_free_record	query_record.c	/^record_t *get_free_record(space_t *space)$/;"	f
+hash_fg	query_hashtable.c	/^unsigned long hash_fg(unsigned char *out_url)$/;"	f
+hash_node	test.c	/^	struct hlist_node hash_node;$/;"	m	struct:_testb_t	typeref:struct:_testb_t::hlist_node	file:
+hash_test	test.c	/^int hash_test()$/;"	f
+init_query_url	query_space.c	/^int init_query_url(void **s)$/;"	f
+init_space	query_space.c	/^int init_space(void *s, unsigned long size, space_t *space, unsigned int arg)$/;"	f
+init_space_hash	query_hashtable.c	/^int init_space_hash(void *s, unsigned long size, space_t *space, unsigned int arg)$/;"	f
+init_space_record	query_record.c	/^int init_space_record(void *s, unsigned long size, space_t *space, unsigned int arg)$/;"	f
+insert_records_from_file	communicate.c	/^int insert_records_from_file(const char *filename, space_t *space)$/;"	f
+insert_records_from_file	test.c	/^int insert_records_from_file(const char *filename, space_t *space)$/;"	f
+list	test.c	/^	struct list_head list;$/;"	m	struct:_test_t	typeref:struct:_test_t::list_head	file:
+list_test	test.c	/^int list_test()$/;"	f
+listen_result	communicate.c	/^void *listen_result(void *arg)$/;"	f
+listen_result	test_communication.c	/^void *listen_result(void *arg)$/;"	f
+main	communicate.c	/^int main()$/;"	f
+main	test.c	/^int main()$/;"	f
+main	test_communication.c	/^int main()$/;"	f
+md5_url	query_record.c	/^int md5_url(const char *url_out, int len, unsigned char *url_md5_in)$/;"	f
+mount_record_to_hash	query_hashtable.c	/^int mount_record_to_hash(record_t *record, unsigned long hash_index, space_t *space)$/;"	f
+msg_back_web_cache_t	communicate.c	/^}msg_back_web_cache_t;$/;"	t	typeref:struct:msg_bcak_web_cache_t_	file:
+msg_bcak_web_cache_t_	communicate.c	/^typedef struct msg_bcak_web_cache_t_$/;"	s	file:
+msg_web_cache_t	communicate.c	/^}msg_web_cache_t;$/;"	t	typeref:struct:msg_web_cache_t_	file:
+msg_web_cache_t	test_communication.c	/^}msg_web_cache_t;$/;"	t	typeref:struct:msg_web_cache_t_	file:
+msg_web_cache_t_	communicate.c	/^typedef struct msg_web_cache_t_$/;"	s	file:
+msg_web_cache_t_	test_communication.c	/^typedef struct msg_web_cache_t_$/;"	s	file:
+msgid	communicate.c	/^	int msgid;$/;"	m	struct:att_thread_t_	file:
+msgid	communicate.c	/^int msgid = -1;$/;"	v
+msgid	test_communication.c	/^	int msgid;$/;"	m	struct:att_thread_t_	file:
+msgtype	communicate.c	/^	long msgtype;$/;"	m	struct:msg_bcak_web_cache_t_	file:
+msgtype	communicate.c	/^	long msgtype;$/;"	m	struct:msg_web_cache_t_	file:
+msgtype	test_communication.c	/^	long msgtype;$/;"	m	struct:msg_web_cache_t_	file:
+mtext	communicate.c	/^	unsigned char mtext[MSG_BACK_MAX_SIZE];$/;"	m	struct:msg_bcak_web_cache_t_	file:
+mtext	communicate.c	/^	unsigned char mtext[MSG_MAX_SIZE];$/;"	m	struct:msg_web_cache_t_	file:
+name	test.c	/^	char name[100];$/;"	m	struct:_test_t	file:
+name	test.c	/^	char name[100];$/;"	m	struct:_testb_t	file:
+node	test_communication.c	/^	void *node; \/\/用于传递结点指针$/;"	m	struct:msg_web_cache_t_	file:
+node_lock	communicate.c	/^	pthread_mutex_t node_lock;$/;"	m	struct:att_thread_t_	file:
+node_lock	test_communication.c	/^	pthread_mutex_t node_lock;$/;"	m	struct:att_thread_t_	file:
+process_url	process_url.c	/^int process_url(const unsigned char *temp, unsigned int len, space_t *space)$/;"	f
+send_msg	communicate.c	/^int send_msg(char *url, record_t *record)$/;"	f
+space	communicate.c	/^	space_t *space;$/;"	m	struct:att_thread_t_	file:
+space	test_communication.c	/^	space_t *space;$/;"	m	struct:att_thread_t_	file:
+test_t	test.c	/^}test_t;$/;"	t	typeref:struct:_test_t	file:
+testb_t	test.c	/^}testb_t;$/;"	t	typeref:struct:_testb_t	file:
+unmount_record_from_hash	query_hashtable.c	/^int unmount_record_from_hash(record_t *record)$/;"	f
+url	test_communication.c	/^	char url[MAX_SIZE];$/;"	m	struct:msg_web_cache_t_	file:
